@@ -1,0 +1,313 @@
+/*navigation bar*/
+.navi{
+    color: #f2f2f2;
+    text-shadow: #1e47c1;
+    list-style: none;
+    text-align: right;
+    cursor: pointer;
+    font-size: large;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 22px;
+    margin-top: 10px;
+    padding-left: 100px;
+    
+}
+.nav{
+    margin-left: 0px;
+    align-items: right;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin-top: -20px;
+    width: 1517.9px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bolder;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b9bfb8;
+    font-weight: bolder;
+    
+}
+
+nav a:hover {
+    color: #e78223;
+}
+
+.navi{
+    margin-left: 40rem;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.head{
+    background-image: url(images/Sports2.jpg);
+    height: 689px;
+    width: 1499px;
+    object-fit: cover;
+    background-size: cover;
+    filter: brightness(90%);
+    margin-left: -20px;
+    margin-right: -100px;
+    
+}
+ 
+.container {
+    position: relative;
+    max-width: 550px;
+    width: 100%;
+    background: #a1a8a4;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+    margin-left: 850px;
+    margin-top: -460px;
+    filter: blur(100%);
+  
+  }
+  
+  
+  .container header {
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .container .form {
+    margin-top: 15px;
+  }
+  
+  .form .input-box {
+    width: 580px;
+    margin-top: 10px;
+  }
+  
+  .input-box label {
+    color: #000;
+  }
+  
+  .form :where(.input-box input, .select-box) {
+    position: relative;
+    height: 35px;
+    width: 90%;
+    outline: none;
+    font-size: 1rem;
+    color: #808080;
+    margin-top: 5px;
+    border: 1px solid #EE4E34;
+    border-radius: 6px;
+    padding: 0 15px;
+    background: #FCEDDA;
+  }
+  
+  .input-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .form .column {
+    display: flex;
+    column-gap: 15px;
+  }
+  
+  .form .sports-box {
+    margin-top: 10px;
+  }
+  
+  .form :where(.sports-option, .sports) {
+    display: flex;
+    align-items: center;
+    column-gap: 140px;
+    flex-wrap: wrap;
+    
+
+  }
+  
+  .form .sports {
+    column-gap: 5px;
+  }
+  
+  .sports input {
+    accent-color: #EE4E34;
+  }
+  
+  .form :where(.sports input, .sports label) {
+    cursor: pointer;
+  }
+  
+  .sports label {
+    color: #000;
+  }
+  
+  .address :where(input, .select-box) {
+    margin-top: 10px;
+  }
+  
+  .select-box select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #808080;
+    font-size: 1rem;
+    background: #FCEDDA;
+  }
+  .select-box{
+    width: 490px;
+    padding-right: 10px;
+  }
+  
+  .form button {
+    height: 40px;
+    width: 100%;
+    color: #1c1717;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: #c4d5c4;
+  }
+  
+  .form button:hover {
+    background: #e78223;
+  }
+ .column{
+    width: 550px;
+ }
+    
+ 
+  .navi1{
+    color: #f2f2f2;
+    text-shadow: #1e47c1;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-top: 15px;
+    padding-top: -50px;
+    padding-bottom: -10px;
+    margin-bottom: 100px;
+}
+footer{
+    text-align: center;
+    color: #f2f2f2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 33px;
+}
+
+.card {
+    max-width: 550px;
+    width: 100%;
+    height: 398px;
+    border-radius: 8px;
+    background: #a1a8a4;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    margin-left: 100px;
+    margin-top: 90px;
+   }
+   
+   .card-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+   
+   .text-body {
+    color: rgb(134, 134, 134);
+    padding-bottom: 100px;
+    margin-top: -100px;
+    margin-bottom: -60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+   }
+   
+ 
+   .text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 100px;
+    margin-top: -50px;
+    margin-left: 130px;
+   }
+   
+ 
+   .card:hover {
+    border-color: #008bf8;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+   }
+   .button {
+    padding: 1em 1em;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-left: 50px;
+    
+    cursor: pointer;
+    color: #000;
+    transition: all 1000ms;
+    font-size: 14px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #021013;
+    width: 100px;
+  }
+  
+  .button:hover {
+    color: #f3eeeb;
+    transform: scale(1.1);
+    outline: 2px solid #e3dfdb;
+    box-shadow: 4px 5px 17px -4px #e78223;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #e78223;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+  .button:hover::before {
+    width: 250%;
+  }
+  #bb{
+    margin-left: 4px;
+  }
+  #bd{
+    margin-left: -7px;
+  }
